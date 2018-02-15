@@ -1,8 +1,5 @@
 language: node_js
 node_js:
    - "node"
-deploy:
-  provider: heroku
-  api_key:
-    secure: "6ef3337b-9b6b-4daa-b3a8-bcf27eb40ee0"
-  strategy: git
+after_success:
+  - ./deploy.sh
