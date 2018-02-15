@@ -1,7 +1,7 @@
 "use strict";
 
 const User = require("./User");
-const expect = require('chai').expect
+const expect = require("chai").expect;
 
 describe("User module", () => {
   describe("up", () => {
@@ -13,5 +13,5 @@ describe("User module", () => {
       expect(usersUpResult.then).to.be.a("Function");
       expect(usersUpResult.catch).to.be.a("Function");
     });
-  })
+  });
 })
