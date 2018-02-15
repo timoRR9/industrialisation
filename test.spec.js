@@ -14,4 +14,4 @@ describe("User module", () => {
       expect(usersUpResult.catch).to.be.a("Function");
     });
   });
-})
+});
