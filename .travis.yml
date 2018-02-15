@@ -5,4 +5,4 @@ notifications:
   email:
     on_success: never
     on_failure: always
-   slack: spots-crew:54ojEmqH17PttQzvUdpkC1QZ
+  slack: spots-crew:54ojEmqH17PttQzvUdpkC1QZ
