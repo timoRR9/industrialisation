@@ -1,0 +1,12 @@
+{
+  "name": "industrialisation",
+  "description": "Github access (PR) + Travis + Accesslint + Codacy + Heroku",
+  "author": "timoRR9",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "jshint hello.js"
+  }
+}
